@@ -1,0 +1,10 @@
+{
+ "_source": "https://groww.in/trade-api/docs/curl",
+ "status": "SUCCESS",
+ "payload": {
+  "groww_order_id": "GMK39038RDT490CCVRO",
+  "order_status": "OPEN",
+  "order_reference_id": "kp1234abcd001",
+  "remark": "Order placed successfully"
+ }
+}

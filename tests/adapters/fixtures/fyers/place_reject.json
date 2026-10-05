@@ -1,0 +1,7 @@
+{
+ "_source": "https://myapi.fyers.in/docsv3",
+ "s": "error",
+ "code": -50,
+ "message": "Insufficient margin available to place the order",
+ "id": ""
+}

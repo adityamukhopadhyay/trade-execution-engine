@@ -1,0 +1,28 @@
+{
+ "_source": "https://groww.in/trade-api/docs/curl",
+ "status": "SUCCESS",
+ "payload": {
+  "trading_symbol": "INFY",
+  "order_status": "OPEN",
+  "remark": "",
+  "quantity": 10,
+  "price": 0.0,
+  "trigger_price": 0.0,
+  "filled_quantity": 0,
+  "remaining_quantity": 10,
+  "average_fill_price": 0.0,
+  "deliverable_quantity": 0,
+  "amo_status": "NA",
+  "validity": "DAY",
+  "exchange": "NSE",
+  "order_type": "MARKET",
+  "transaction_type": "BUY",
+  "segment": "CASH",
+  "product": "CNC",
+  "created_at": "2026-10-05T10:00:00",
+  "exchange_time": "2026-10-05T10:00:01",
+  "trade_date": "2026-10-05",
+  "order_reference_id": "kp1234abcd001",
+  "groww_order_id": "GMK39038RDT490CCVRO"
+ }
+}

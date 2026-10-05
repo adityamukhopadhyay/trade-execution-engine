@@ -1,0 +1,9 @@
+{
+ "_source": "https://groww.in/trade-api/docs/curl",
+ "status": "FAILURE",
+ "error": {
+  "code": "GA003",
+  "message": "Invalid TOTP",
+  "metadata": null
+ }
+}

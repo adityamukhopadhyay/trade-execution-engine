@@ -1,0 +1,15 @@
+{
+ "_source": "https://upstox.com/developer/api-documentation/",
+ "status": "error",
+ "errors": [
+  {
+   "errorCode": "UDAPI100500",
+   "message": "Insufficient funds",
+   "propertyPath": null,
+   "invalidValue": null,
+   "error_code": "UDAPI100500",
+   "property_path": null,
+   "invalid_value": null
+  }
+ ]
+}

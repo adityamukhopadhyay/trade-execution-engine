@@ -1,0 +1,50 @@
+{
+ "_source": "https://upstox.com/developer/api-documentation/",
+ "status": "success",
+ "data": [
+  {
+   "isin": "INE009A01021",
+   "cnc_used_quantity": 0,
+   "collateral_type": "WC",
+   "company_name": "INFOSYS LIMITED",
+   "haircut": 0.2,
+   "product": "D",
+   "quantity": 10,
+   "trading_symbol": "INFY",
+   "tradingsymbol": "INFY",
+   "last_price": 1510.25,
+   "close_price": 1500.0,
+   "pnl": 597.5,
+   "day_change": 10.25,
+   "day_change_percentage": 0.68,
+   "instrument_token": "NSE_EQ|INE009A01021",
+   "average_price": 1450.5,
+   "collateral_quantity": 0,
+   "collateral_update_quantity": 0,
+   "t1_quantity": 0,
+   "exchange": "NSE"
+  },
+  {
+   "isin": "INE062A01020",
+   "cnc_used_quantity": 0,
+   "collateral_type": "WC",
+   "company_name": "STATE BANK OF INDIA",
+   "haircut": 0.2,
+   "product": "D",
+   "quantity": 5,
+   "trading_symbol": "SBIN",
+   "tradingsymbol": "SBIN",
+   "last_price": 650.0,
+   "close_price": 645.0,
+   "pnl": 147.5,
+   "day_change": 5.0,
+   "day_change_percentage": 0.77,
+   "instrument_token": "NSE_EQ|INE062A01020",
+   "average_price": 620.5,
+   "collateral_quantity": 0,
+   "collateral_update_quantity": 0,
+   "t1_quantity": 0,
+   "exchange": "NSE"
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "_source": "https://groww.in/trade-api/docs/curl",
+ "status": "FAILURE",
+ "error": {
+  "code": "GA001",
+  "message": "Invalid trading symbol.",
+  "metadata": null
+ }
+}

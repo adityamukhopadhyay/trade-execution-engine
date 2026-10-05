@@ -1,0 +1,15 @@
+{
+ "_source": "https://upstox.com/developer/api-documentation/",
+ "status": "error",
+ "errors": [
+  {
+   "errorCode": "UDAPI10005",
+   "message": "Too Many Request Sent",
+   "propertyPath": null,
+   "invalidValue": null,
+   "error_code": "UDAPI10005",
+   "property_path": null,
+   "invalid_value": null
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+ "_source": "https://myapi.fyers.in/docsv3",
+ "s": "ok",
+ "code": 200,
+ "message": "",
+ "access_token": "fyers-access-token",
+ "refresh_token": "fyers-refresh-token"
+}

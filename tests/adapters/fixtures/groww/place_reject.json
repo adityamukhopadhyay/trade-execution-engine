@@ -1,0 +1,9 @@
+{
+ "_source": "https://groww.in/trade-api/docs/curl",
+ "status": "FAILURE",
+ "error": {
+  "code": "GA005",
+  "message": "Insufficient funds to place the order",
+  "metadata": null
+ }
+}

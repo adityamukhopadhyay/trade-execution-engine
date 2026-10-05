@@ -1,0 +1,38 @@
+{
+ "_source": "https://myapi.fyers.in/docsv3",
+ "s": "ok",
+ "code": 200,
+ "message": "",
+ "orderBook": [
+  {
+   "id": "25100500001",
+   "exchOrdId": "1100000000012345",
+   "symbol": "NSE:INFY-EQ",
+   "qty": 10,
+   "remainingQuantity": 10,
+   "filledQty": 0,
+   "status": 5,
+   "slNo": 1,
+   "message": "RED:Insufficient funds",
+   "segment": 10,
+   "limitPrice": 0,
+   "stopPrice": 0,
+   "productType": "CNC",
+   "type": 2,
+   "side": 1,
+   "orderDateTime": "05-Oct-2026 10:00:00",
+   "tradedPrice": 0,
+   "orderValidity": "DAY",
+   "pan": "ABCDE1234F",
+   "clientId": "XK00001",
+   "exchange": 10,
+   "fyToken": "101000000001594",
+   "offlineOrder": false,
+   "source": "API",
+   "ex_sym": "INFY",
+   "description": "INFOSYS LIMITED",
+   "disclosedQty": 0,
+   "orderTag": "kp1234abcd001"
+  }
+ ]
+}

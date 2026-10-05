@@ -1,0 +1,36 @@
+{
+ "_source": "https://groww.in/trade-api/docs/curl",
+ "status": "SUCCESS",
+ "payload": {
+  "holdings": [
+   {
+    "isin": "INE002A01018",
+    "trading_symbol": "RELIANCE",
+    "quantity": 4,
+    "average_price": 2450.75,
+    "pledge_quantity": 0,
+    "demat_locked_quantity": 0,
+    "groww_locked_quantity": 0,
+    "repledge_quantity": 0,
+    "t1_quantity": 0,
+    "demat_free_quantity": 4,
+    "corporate_action_additional_quantity": 0,
+    "active_demat_transfer_quantity": 0
+   },
+   {
+    "isin": "INE009A01021",
+    "trading_symbol": "INFY",
+    "quantity": 10,
+    "average_price": 1450.5,
+    "pledge_quantity": 2,
+    "demat_locked_quantity": 0,
+    "groww_locked_quantity": 0,
+    "repledge_quantity": 0,
+    "t1_quantity": 0,
+    "demat_free_quantity": 8,
+    "corporate_action_additional_quantity": 0,
+    "active_demat_transfer_quantity": 0
+   }
+  ]
+ }
+}

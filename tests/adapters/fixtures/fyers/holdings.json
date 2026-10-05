@@ -1,0 +1,51 @@
+{
+ "_source": "https://myapi.fyers.in/docsv3",
+ "s": "ok",
+ "code": 200,
+ "message": "",
+ "holdings": [
+  {
+   "holdingType": "HLD",
+   "quantity": 5,
+   "remainingQuantity": 5,
+   "costPrice": 620.5,
+   "marketVal": 3250.0,
+   "pl": 147.5,
+   "ltp": 650.0,
+   "id": 1,
+   "fyToken": "101000000003045",
+   "exchange": 10,
+   "segment": 10,
+   "symbol": "NSE:SBIN-EQ",
+   "isin": "INE062A01020",
+   "qty_t1": 0,
+   "remainingPledgeQuantity": 0,
+   "collateralQuantity": 0
+  },
+  {
+   "holdingType": "T1",
+   "quantity": 10,
+   "remainingQuantity": 10,
+   "costPrice": 1450.5,
+   "marketVal": 15102.5,
+   "pl": 597.5,
+   "ltp": 1510.25,
+   "id": 2,
+   "fyToken": "101000000001594",
+   "exchange": 10,
+   "segment": 10,
+   "symbol": "NSE:INFY-EQ",
+   "isin": "INE009A01021",
+   "qty_t1": 10,
+   "remainingPledgeQuantity": 0,
+   "collateralQuantity": 0
+  }
+ ],
+ "overall": {
+  "count_total": 2,
+  "pnl_perc": 4.2,
+  "total_current_value": 18352.5,
+  "total_investment": 17607.5,
+  "total_pl": 745.0
+ }
+}

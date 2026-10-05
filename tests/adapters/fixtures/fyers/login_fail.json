@@ -1,0 +1,6 @@
+{
+ "_source": "https://myapi.fyers.in/docsv3",
+ "s": "error",
+ "code": -371,
+ "message": "Missing or invalid appIdHash"
+}

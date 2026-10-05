@@ -1,0 +1,15 @@
+{
+ "_source": "https://upstox.com/developer/api-documentation/",
+ "status": "error",
+ "errors": [
+  {
+   "errorCode": "UDAPI100016",
+   "message": "Invalid credentials",
+   "propertyPath": null,
+   "invalidValue": null,
+   "error_code": "UDAPI100016",
+   "property_path": null,
+   "invalid_value": null
+  }
+ ]
+}

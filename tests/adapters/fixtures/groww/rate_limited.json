@@ -1,0 +1,9 @@
+{
+ "_source": "https://groww.in/trade-api/docs/curl",
+ "status": "FAILURE",
+ "error": {
+  "code": "GA429",
+  "message": "Too many requests",
+  "metadata": null
+ }
+}

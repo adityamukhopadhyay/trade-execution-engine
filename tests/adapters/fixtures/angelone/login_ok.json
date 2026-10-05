@@ -1,0 +1,12 @@
+{
+ "_source": "https://smartapi.angelbroking.com/docs",
+ "status": true,
+ "message": "SUCCESS",
+ "errorcode": "",
+ "data": {
+  "jwtToken": "angel-jwt-token",
+  "refreshToken": "angel-refresh-token",
+  "feedToken": "angel-feed-token",
+  "state": ""
+ }
+}

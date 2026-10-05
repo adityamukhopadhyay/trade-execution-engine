@@ -1,0 +1,7 @@
+{
+ "_source": "https://smartapi.angelbroking.com/docs",
+ "status": false,
+ "message": "Insufficient Funds. Available fund: 1000.00",
+ "errorcode": "AB1004",
+ "data": null
+}

@@ -1,0 +1,6 @@
+{
+ "_source": "https://kite.trade/docs/connect/v3/",
+ "status": "error",
+ "message": "Too many requests to the API (rate limiting)",
+ "error_type": "NetworkException"
+}

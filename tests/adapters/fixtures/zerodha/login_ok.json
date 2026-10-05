@@ -1,0 +1,30 @@
+{
+ "_source": "https://kite.trade/docs/connect/v3/",
+ "status": "success",
+ "data": {
+  "user_id": "AB1234",
+  "user_name": "Kalpi Test",
+  "user_shortname": "Kalpi",
+  "email": "kalpi@example.com",
+  "user_type": "individual",
+  "broker": "ZERODHA",
+  "exchanges": [
+   "NSE",
+   "BSE"
+  ],
+  "products": [
+   "CNC",
+   "MIS"
+  ],
+  "order_types": [
+   "MARKET",
+   "LIMIT"
+  ],
+  "api_key": "kitekey",
+  "access_token": "zerodha-access-token-xyz",
+  "public_token": "pub-token",
+  "refresh_token": "",
+  "enctoken": "",
+  "login_time": "2026-10-05 08:30:00"
+ }
+}

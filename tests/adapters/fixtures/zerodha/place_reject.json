@@ -1,0 +1,6 @@
+{
+ "_source": "https://kite.trade/docs/connect/v3/",
+ "status": "error",
+ "error_type": "MarginException",
+ "message": "Insufficient funds. Required margin is 15102.50 but available margin is 1000.00."
+}
