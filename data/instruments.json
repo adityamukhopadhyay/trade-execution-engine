@@ -1,0 +1,450 @@
+[
+ {
+  "symbol": "ADANIENT",
+  "exchange": "NSE",
+  "isin": "INE423A01024",
+  "name": "ADANI ENTERPRISES LIMITED",
+  "angel_token": "25"
+ },
+ {
+  "symbol": "ADANIPORTS",
+  "exchange": "NSE",
+  "isin": "INE742F01042",
+  "name": "ADANI PORT & SEZ LTD",
+  "angel_token": "15083"
+ },
+ {
+  "symbol": "APOLLOHOSP",
+  "exchange": "NSE",
+  "isin": "INE437A01024",
+  "name": "APOLLO HOSPITALS ENTER. L",
+  "angel_token": "157"
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "exchange": "NSE",
+  "isin": "INE021A01026",
+  "name": "ASIAN PAINTS LIMITED",
+  "angel_token": "236"
+ },
+ {
+  "symbol": "AXISBANK",
+  "exchange": "NSE",
+  "isin": "INE238A01034",
+  "name": "AXIS BANK LIMITED",
+  "angel_token": "5900"
+ },
+ {
+  "symbol": "BAJAJ-AUTO",
+  "exchange": "NSE",
+  "isin": "INE917I01010",
+  "name": "BAJAJ AUTO LIMITED",
+  "angel_token": "16669"
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "exchange": "NSE",
+  "isin": "INE296A01032",
+  "name": "BAJAJ FINANCE LIMITED",
+  "angel_token": "317"
+ },
+ {
+  "symbol": "BAJAJFINSV",
+  "exchange": "NSE",
+  "isin": "INE918I01026",
+  "name": "BAJAJ FINSERV LTD.",
+  "angel_token": "16675"
+ },
+ {
+  "symbol": "BEL",
+  "exchange": "NSE",
+  "isin": "INE263A01024",
+  "name": "BHARAT ELECTRONICS LTD",
+  "angel_token": "383"
+ },
+ {
+  "symbol": "BHARTIARTL",
+  "exchange": "NSE",
+  "isin": "INE397D01024",
+  "name": "BHARTI AIRTEL LIMITED",
+  "angel_token": "10604"
+ },
+ {
+  "symbol": "CIPLA",
+  "exchange": "NSE",
+  "isin": "INE059A01026",
+  "name": "CIPLA LTD",
+  "angel_token": "694"
+ },
+ {
+  "symbol": "COALINDIA",
+  "exchange": "NSE",
+  "isin": "INE522F01014",
+  "name": "COAL INDIA LTD",
+  "angel_token": "20374"
+ },
+ {
+  "symbol": "DRREDDY",
+  "exchange": "NSE",
+  "isin": "INE089A01031",
+  "name": "DR. REDDY S LABORATORIES",
+  "angel_token": "881"
+ },
+ {
+  "symbol": "EICHERMOT",
+  "exchange": "NSE",
+  "isin": "INE066A01021",
+  "name": "EICHER MOTORS LTD",
+  "angel_token": "910"
+ },
+ {
+  "symbol": "ETERNAL",
+  "exchange": "NSE",
+  "isin": "INE758T01015",
+  "name": "ETERNAL LIMITED",
+  "angel_token": "5097"
+ },
+ {
+  "symbol": "GRASIM",
+  "exchange": "NSE",
+  "isin": "INE047A01021",
+  "name": "GRASIM INDUSTRIES LTD",
+  "angel_token": "1232"
+ },
+ {
+  "symbol": "HCLTECH",
+  "exchange": "NSE",
+  "isin": "INE860A01027",
+  "name": "HCL TECHNOLOGIES LTD",
+  "angel_token": "7229"
+ },
+ {
+  "symbol": "HDFCBANK",
+  "exchange": "NSE",
+  "isin": "INE040A01034",
+  "name": "HDFC BANK LTD",
+  "angel_token": "1333"
+ },
+ {
+  "symbol": "HDFCLIFE",
+  "exchange": "NSE",
+  "isin": "INE795G01014",
+  "name": "HDFC LIFE INS CO LTD",
+  "angel_token": "467"
+ },
+ {
+  "symbol": "HEROMOTOCO",
+  "exchange": "NSE",
+  "isin": "INE158A01026",
+  "name": "HERO MOTOCORP LIMITED",
+  "angel_token": "1348"
+ },
+ {
+  "symbol": "HINDALCO",
+  "exchange": "NSE",
+  "isin": "INE038A01020",
+  "name": "HINDALCO  INDUSTRIES  LTD",
+  "angel_token": "1363"
+ },
+ {
+  "symbol": "HINDUNILVR",
+  "exchange": "NSE",
+  "isin": "INE030A01027",
+  "name": "HINDUSTAN UNILEVER LTD.",
+  "angel_token": "1394"
+ },
+ {
+  "symbol": "ICICIBANK",
+  "exchange": "NSE",
+  "isin": "INE090A01021",
+  "name": "ICICI BANK LTD.",
+  "angel_token": "4963"
+ },
+ {
+  "symbol": "INDUSINDBK",
+  "exchange": "NSE",
+  "isin": "INE095A01012",
+  "name": "INDUSIND BANK LIMITED",
+  "angel_token": "5258"
+ },
+ {
+  "symbol": "INFY",
+  "exchange": "NSE",
+  "isin": "INE009A01021",
+  "name": "INFOSYS LIMITED",
+  "angel_token": "1594"
+ },
+ {
+  "symbol": "ITC",
+  "exchange": "NSE",
+  "isin": "INE154A01025",
+  "name": "ITC LTD",
+  "angel_token": "1660"
+ },
+ {
+  "symbol": "JIOFIN",
+  "exchange": "NSE",
+  "isin": "INE758E01017",
+  "name": "JIO FIN SERVICES LTD",
+  "angel_token": "18143"
+ },
+ {
+  "symbol": "JSWSTEEL",
+  "exchange": "NSE",
+  "isin": "INE019A01038",
+  "name": "JSW STEEL LIMITED",
+  "angel_token": "11723"
+ },
+ {
+  "symbol": "KOTAKBANK",
+  "exchange": "NSE",
+  "isin": "INE237A01036",
+  "name": "KOTAK MAHINDRA BANK LTD",
+  "angel_token": "1922"
+ },
+ {
+  "symbol": "LT",
+  "exchange": "NSE",
+  "isin": "INE018A01030",
+  "name": "LARSEN & TOUBRO LTD.",
+  "angel_token": "11483"
+ },
+ {
+  "symbol": "M&M",
+  "exchange": "NSE",
+  "isin": "INE101A01026",
+  "name": "MAHINDRA & MAHINDRA LTD",
+  "angel_token": "2031"
+ },
+ {
+  "symbol": "MARUTI",
+  "exchange": "NSE",
+  "isin": "INE585B01010",
+  "name": "MARUTI SUZUKI INDIA LTD.",
+  "angel_token": "10999"
+ },
+ {
+  "symbol": "NESTLEIND",
+  "exchange": "NSE",
+  "isin": "INE239A01024",
+  "name": "NESTLE INDIA LIMITED",
+  "angel_token": "17963"
+ },
+ {
+  "symbol": "NTPC",
+  "exchange": "NSE",
+  "isin": "INE733E01010",
+  "name": "NTPC LTD",
+  "angel_token": "11630"
+ },
+ {
+  "symbol": "ONGC",
+  "exchange": "NSE",
+  "isin": "INE213A01029",
+  "name": "OIL AND NATURAL GAS CORP.",
+  "angel_token": "2475"
+ },
+ {
+  "symbol": "POWERGRID",
+  "exchange": "NSE",
+  "isin": "INE752E01010",
+  "name": "POWER GRID CORP. LTD.",
+  "angel_token": "14977"
+ },
+ {
+  "symbol": "RELIANCE",
+  "exchange": "NSE",
+  "isin": "INE002A01018",
+  "name": "RELIANCE INDUSTRIES LTD",
+  "angel_token": "2885"
+ },
+ {
+  "symbol": "SBILIFE",
+  "exchange": "NSE",
+  "isin": "INE123W01016",
+  "name": "SBI LIFE INSURANCE CO LTD",
+  "angel_token": "21808"
+ },
+ {
+  "symbol": "SBIN",
+  "exchange": "NSE",
+  "isin": "INE062A01020",
+  "name": "STATE BANK OF INDIA",
+  "angel_token": "3045"
+ },
+ {
+  "symbol": "SHRIRAMFIN",
+  "exchange": "NSE",
+  "isin": "INE721A01047",
+  "name": "SHRIRAM FINANCE LIMITED",
+  "angel_token": "4306"
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "exchange": "NSE",
+  "isin": "INE044A01036",
+  "name": "SUN PHARMACEUTICAL IND L",
+  "angel_token": "3351"
+ },
+ {
+  "symbol": "TATACONSUM",
+  "exchange": "NSE",
+  "isin": "INE192A01025",
+  "name": "TATA CONSUMER PRODUCT LTD",
+  "angel_token": "3432"
+ },
+ {
+  "symbol": "TATASTEEL",
+  "exchange": "NSE",
+  "isin": "INE081A01020",
+  "name": "TATA STEEL LIMITED",
+  "angel_token": "3499"
+ },
+ {
+  "symbol": "TCS",
+  "exchange": "NSE",
+  "isin": "INE467B01029",
+  "name": "TATA CONSULTANCY SERV LT",
+  "angel_token": "11536"
+ },
+ {
+  "symbol": "TECHM",
+  "exchange": "NSE",
+  "isin": "INE669C01036",
+  "name": "TECH MAHINDRA LIMITED",
+  "angel_token": "13538"
+ },
+ {
+  "symbol": "TITAN",
+  "exchange": "NSE",
+  "isin": "INE280A01028",
+  "name": "TITAN COMPANY LIMITED",
+  "angel_token": "3506"
+ },
+ {
+  "symbol": "TRENT",
+  "exchange": "NSE",
+  "isin": "INE849A01020",
+  "name": "TRENT LTD",
+  "angel_token": "1964"
+ },
+ {
+  "symbol": "ULTRACEMCO",
+  "exchange": "NSE",
+  "isin": "INE481G01011",
+  "name": "ULTRATECH CEMENT LIMITED",
+  "angel_token": "11532"
+ },
+ {
+  "symbol": "WIPRO",
+  "exchange": "NSE",
+  "isin": "INE075A01022",
+  "name": "WIPRO LTD",
+  "angel_token": "3787"
+ },
+ {
+  "symbol": "DMART",
+  "exchange": "NSE",
+  "isin": "INE192R01011",
+  "name": "AVENUE SUPERMARTS LIMITED",
+  "angel_token": "19913"
+ },
+ {
+  "symbol": "PIDILITIND",
+  "exchange": "NSE",
+  "isin": "INE318A01026",
+  "name": "PIDILITE INDUSTRIES LTD",
+  "angel_token": "2664"
+ },
+ {
+  "symbol": "HAVELLS",
+  "exchange": "NSE",
+  "isin": "INE176B01034",
+  "name": "HAVELLS INDIA LIMITED",
+  "angel_token": "9819"
+ },
+ {
+  "symbol": "DABUR",
+  "exchange": "NSE",
+  "isin": "INE016A01026",
+  "name": "DABUR INDIA LTD",
+  "angel_token": "772"
+ },
+ {
+  "symbol": "BANKBARODA",
+  "exchange": "NSE",
+  "isin": "INE028A01039",
+  "name": "BANK OF BARODA",
+  "angel_token": "4668"
+ },
+ {
+  "symbol": "PNB",
+  "exchange": "NSE",
+  "isin": "INE160A01022",
+  "name": "PUNJAB NATIONAL BANK",
+  "angel_token": "10666"
+ },
+ {
+  "symbol": "VEDL",
+  "exchange": "NSE",
+  "isin": "INE205A01025",
+  "name": "VEDANTA LIMITED",
+  "angel_token": "3063"
+ },
+ {
+  "symbol": "GAIL",
+  "exchange": "NSE",
+  "isin": "INE129A01019",
+  "name": "GAIL (INDIA) LTD",
+  "angel_token": "4717"
+ },
+ {
+  "symbol": "IOC",
+  "exchange": "NSE",
+  "isin": "INE242A01010",
+  "name": "INDIAN OIL CORP LTD",
+  "angel_token": "1624"
+ },
+ {
+  "symbol": "BPCL",
+  "exchange": "NSE",
+  "isin": "INE029A01011",
+  "name": "BHARAT PETROLEUM CORP  LT",
+  "angel_token": "526"
+ },
+ {
+  "symbol": "SIEMENS",
+  "exchange": "NSE",
+  "isin": "INE003A01024",
+  "name": "SIEMENS LTD",
+  "angel_token": "3150"
+ },
+ {
+  "symbol": "DLF",
+  "exchange": "NSE",
+  "isin": "INE271C01023",
+  "name": "DLF LIMITED",
+  "angel_token": "14732"
+ },
+ {
+  "symbol": "BRITANNIA",
+  "exchange": "NSE",
+  "isin": "INE216A01030",
+  "name": "BRITANNIA INDUSTRIES LTD",
+  "angel_token": "547"
+ },
+ {
+  "symbol": "HAL",
+  "exchange": "NSE",
+  "isin": "INE066F01020",
+  "name": "HINDUSTAN AERONAUTICS LTD",
+  "angel_token": "2303"
+ },
+ {
+  "symbol": "REJECTME",
+  "exchange": "NSE",
+  "isin": "INE000000000",
+  "name": "Fake row: the paper broker rejects it after acceptance",
+  "angel_token": "0"
+ }
+]
