@@ -1,0 +1,16 @@
+{
+  "_note": "Needs existing holdings: connect the paper broker with seed_holdings=INFY:10,TCS:5,RELIANCE:8 first.",
+  "idempotency_key": "demo-rebal-001",
+  "dry_run": false,
+  "allow_existing_holdings": false,
+  "on_sell_shortfall": "halt",
+  "portfolio": {
+    "mode": "rebalance",
+    "instructions": [
+      {"action": "SELL", "symbol": "TCS", "exchange": "NSE", "quantity": 5},
+      {"action": "REBALANCE", "symbol": "INFY", "exchange": "NSE", "quantity_delta": -4},
+      {"action": "REBALANCE", "symbol": "RELIANCE", "exchange": "NSE", "isin": "INE002A01018", "quantity_delta": 2},
+      {"action": "BUY", "symbol": "HDFCBANK", "exchange": "NSE", "quantity": 6}
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Portfolio Trade Execution Engine</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio Trade Execution Engine</h1>
+    <nav aria-label="API"><a href="/docs" target="_blank" rel="noopener">API docs</a> · <a href="/openapi.json" target="_blank" rel="noopener">OpenAPI</a> · <a href="/health" target="_blank" rel="noopener">health</a></nav>
+  </header>
+  <main>
+    <section id="panel-portfolio" aria-labelledby="h-portfolio">
+      <h2 id="h-portfolio"><span class="step">1</span>Portfolio</h2>
+      <p class="muted">Upload or paste the target portfolio. The box holds only the <code>portfolio</code> object (<code>mode</code> + <code>lines</code> or <code>instructions</code>); a full request body is accepted too and unwrapped.</p>
+      <div class="row">
+        <button type="button" id="btn-sample-first">Load sample: first-time</button>
+        <button type="button" id="btn-sample-rebal">Load sample: rebalance</button>
+        <label class="file">Upload .json <input type="file" id="file" accept=".json,application/json"></label>
+        <button type="button" id="btn-validate">Validate JSON</button>
+      </div>
+      <label for="portfolio">Portfolio JSON</label>
+      <textarea id="portfolio" rows="12" spellcheck="false" aria-describedby="json-status" placeholder='{"mode": "first_time", "lines": [{"symbol": "INFY", "exchange": "NSE", "quantity": 10}]}'></textarea>
+      <p id="json-status" class="status" aria-live="polite"></p>
+      <div id="preview" class="scroll"></div>
+      <fieldset>
+        <legend>Execution options</legend>
+        <div class="row">
+          <label><input type="checkbox" id="dry-run" checked> Dry run (plan only)</label>
+          <label><input type="checkbox" id="allow-existing"> Allow existing holdings</label>
+          <label>On SELL shortfall
+            <select id="on-sell-shortfall"><option value="halt">halt (skip BUYs)</option><option value="continue">continue</option></select>
+          </label>
+          <label>Idempotency key <input type="text" id="idempotency-key" minlength="8" maxlength="64" autocomplete="off" placeholder="8-64 chars, optional"></label>
+          <button type="button" id="btn-gen-key">Generate</button>
+        </div>
+      </fieldset>
+    </section>
+
+    <section id="panel-broker" aria-labelledby="h-broker">
+      <h2 id="h-broker"><span class="step">2</span>Broker</h2>
+      <div class="row">
+        <label for="broker">Broker</label>
+        <select id="broker" aria-describedby="cred-help"><option value="">loading…</option></select>
+        <span id="broker-badge" class="pill"></span>
+      </div>
+      <p id="cred-help" class="muted"></p>
+      <div id="creds"></div>
+      <p id="login-url" class="note" hidden></p>
+      <div class="row">
+        <button type="button" id="btn-login-url" hidden>Get login URL</button>
+        <button type="button" id="btn-connect" class="primary">Connect</button>
+        <button type="button" id="btn-holdings" disabled>Load holdings</button>
+        <button type="button" id="btn-disconnect" disabled>Disconnect</button>
+      </div>
+      <p id="session-info" aria-live="polite"></p>
+      <div id="broker-error" class="error" role="alert" hidden></div>
+      <div id="holdings" class="scroll"></div>
+    </section>
+
+    <section id="panel-execute" aria-labelledby="h-execute">
+      <h2 id="h-execute"><span class="step">3</span>Execute</h2>
+      <div class="row">
+        <button type="button" id="btn-execute" class="primary big" disabled>Execute</button>
+        <button type="button" id="btn-resend" disabled title="POST the exact previous body again to demonstrate the Idempotent-Replay header">Re-send same key</button>
+        <span id="exec-gate" class="muted" aria-live="polite"></span>
+      </div>
+      <p id="exec-info" aria-live="polite"></p>
+      <div id="exec-error" class="error" role="alert" hidden></div>
+    </section>
+
+    <section id="panel-results" aria-labelledby="h-results">
+      <h2 id="h-results"><span class="step">4</span>Results <span id="live-badge" class="pill" aria-live="polite"></span></h2>
+      <div class="row">
+        <label for="recent">Recent runs</label>
+        <select id="recent"><option value="">select a run</option></select>
+        <button type="button" id="btn-refresh-recent">Refresh</button>
+      </div>
+      <p id="banner" class="note" hidden></p>
+      <div id="summary" class="tiles" aria-label="Order summary"></div>
+      <p id="phase"></p>
+      <ul id="warnings" class="warnings"></ul>
+      <div id="orders" class="scroll"></div>
+      <p id="recon"></p>
+      <details>
+        <summary>Raw report JSON</summary>
+        <div class="row"><button type="button" id="btn-copy">Copy JSON</button></div>
+        <pre id="raw"></pre>
+      </details>
+      <details id="webhook-details">
+        <summary>Webhook deliveries (<span id="webhook-count">0</span>)</summary>
+        <p class="muted">What the engine POSTed to <code>/mock/webhook</code> on <code>run.completed</code>.</p>
+        <div id="webhook" class="scroll"></div>
+      </details>
+    </section>
+  </main>
+  <footer class="muted">Same-origin UI: no framework, no build step. Credentials are sent once to <code>POST /brokers/{broker}/sessions</code> and never stored in the page.</footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

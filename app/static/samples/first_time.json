@@ -1,0 +1,15 @@
+{
+  "idempotency_key": "demo-first-001",
+  "dry_run": false,
+  "allow_existing_holdings": false,
+  "on_sell_shortfall": "halt",
+  "portfolio": {
+    "mode": "first_time",
+    "lines": [
+      {"symbol": "INFY", "exchange": "NSE", "quantity": 10},
+      {"symbol": "TCS", "exchange": "NSE", "quantity": 5},
+      {"symbol": "RELIANCE", "exchange": "NSE", "isin": "INE002A01018", "quantity": 8},
+      {"symbol": "HDFCBANK", "exchange": "NSE", "quantity": 6}
+    ]
+  }
+}
