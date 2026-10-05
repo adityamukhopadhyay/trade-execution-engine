@@ -1,0 +1,44 @@
+# docker compose up --build                     -> http://localhost:8000
+# docker compose --profile chaos up --build     -> same image with paper faults on, port 8001
+# docker compose --profile test run --rm tests  -> pytest inside the image
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    env_file:
+      - path: .env            # copy .env.example to .env to override anything
+        required: false
+    environment:
+      WEBHOOK_URL: http://localhost:8000/mock/webhook   # the app posts to itself
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/health').status==200 else 1)"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 5s
+
+  chaos:
+    profiles: ["chaos"]
+    build: .
+    ports: ["8001:8000"]
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      WEBHOOK_URL: http://localhost:8000/mock/webhook
+      PAPER_SEED_HOLDINGS: "INFY:10,TCS:5,RELIANCE:8"
+      PAPER_REJECT_RATE: "0.2"
+      PAPER_RATE_LIMIT_EVERY_N: "7"
+      PAPER_AMBIGUOUS_RATE: "0.1"
+      PAPER_PARTIAL_FILL_RATE: "0.1"
+      POLL_TIMEOUT_S: "8"
+
+  tests:
+    profiles: ["test"]
+    build:
+      context: .
+      args:
+        INSTALL_DEV: "1"
+    environment:
+      LOG_FORMAT: text
+    command: ["pytest", "-q"]
