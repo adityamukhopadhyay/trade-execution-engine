@@ -24,7 +24,9 @@ HANDLER_NAME = "trade-execution-engine"
 TEXT_FORMAT = "%(asctime)s %(levelname)-7s %(name)s run=%(run_id)s order=%(order_id)s %(message)s"
 
 # anything not here came from extra=
-_STANDARD_ATTRS = frozenset(vars(logging.LogRecord("x", 0, "x", 0, "", (), None))) | {"message", "asctime"}
+_STANDARD_ATTRS = frozenset(vars(logging.LogRecord("x", 0, "x", 0, "", (), None))) | {
+    "message", "asctime", "color_message",
+}
 _KEY_VALUE_RE = re.compile(r"(?i)(\b(?:" + "|".join(sorted(REDACT_KEYS)) + r")\b[\"']?\s*[:=]\s*)(\S+)")
 _BEARER_RE = re.compile(r"(?i)\bBearer\s+\S+")
 
@@ -72,6 +74,11 @@ class RedactFilter(logging.Filter):
         return True
 
 
+class SkipHealthChecks(logging.Filter):
+    def filter(self, record: logging.LogRecord) -> bool:
+        return "/health" not in record.getMessage()
+
+
 class JsonFormatter(logging.Formatter):
     """One JSON object per line: ts, level, logger, msg, run_id, order_id, then every `extra` field."""
 
@@ -111,6 +118,9 @@ def configure_logging(level: str = "INFO", fmt: Literal["json", "text"] = "json"
         uv_logger = logging.getLogger(name)
         uv_logger.handlers.clear()
         uv_logger.propagate = True
+    access = logging.getLogger("uvicorn.access")
+    if not any(isinstance(f, SkipHealthChecks) for f in access.filters):
+        access.addFilter(SkipHealthChecks())
 
 
 _http_log = logging.getLogger("app.broker.http")
